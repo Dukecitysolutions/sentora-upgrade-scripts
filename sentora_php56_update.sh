@@ -67,7 +67,7 @@ if [[ "$VER" = "6" ]]; then
 	make install 
 
 	#Reboot System
-	reboot
+	#reboot
 
 
     elif [[ "$VER" = "7" ]]; then
@@ -101,7 +101,7 @@ if [[ "$VER" = "6" ]]; then
 	make install 
 
 	#Reboot System
-	reboot
+	#reboot
 
     else
         
