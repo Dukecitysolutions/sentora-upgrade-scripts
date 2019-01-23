@@ -59,7 +59,7 @@ if [[ "$VER" = "6" ]]; then
 
 	cd /tmp
 	wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
-	unzip -q suhosin.zip
+	unzip -q suhosin-0.9.38.zip
 	cd suhosin-0.9.38
 	phpize &> /dev/null
 	./configure &> /dev/null
@@ -93,7 +93,7 @@ if [[ "$VER" = "6" ]]; then
 
 	cd /tmp
 	wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
-	unzip -q suhosin.zip
+	unzip -q suhosin-0.9.38.zip
 	cd suhosin-0.9.38
 	phpize &> /dev/null
 	./configure &> /dev/null
