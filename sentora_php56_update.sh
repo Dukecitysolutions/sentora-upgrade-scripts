@@ -58,7 +58,8 @@ if [[ "$VER" = "6" ]]; then
 	yum --enablerepo=remi,remi-php56 upgrade
 
 	cd /tmp
-	wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
+	# OLD - wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
+	wget -nv -O suhosin.zip http://zppy-repo.dukecitysolutions.com/repo/centos_php56/suhosin-0.9.38.zip
 	unzip -q suhosin-0.9.38.zip
 	cd suhosin-0.9.38
 	phpize &> /dev/null
@@ -92,7 +93,8 @@ if [[ "$VER" = "6" ]]; then
 	yum --enablerepo=remi,remi-php56 upgrade
 
 	cd /tmp
-	wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
+	# OLD -wget -nv -O suhosin.zip https://github.com/Dukecitysolutions/sentora-upgrade-scripts/blob/master/suhosin-0.9.38.zip
+	wget -nv -O suhosin.zip http://zppy-repo.dukecitysolutions.com/repo/centos_php56/suhosin-0.9.38.zip
 	unzip -q suhosin-0.9.38.zip
 	cd suhosin-0.9.38
 	phpize &> /dev/null
