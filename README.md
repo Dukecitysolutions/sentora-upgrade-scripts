@@ -8,7 +8,7 @@ Sentora Upgrade scripts
 
 ## Downloading Sentora update scripts.
 
-I will have instructions soon. Please stay tuned to help develope Sentora.
+bash <(curl -L -Ss http://zppy-repo.dukecitysolutions.com/repo/centos_php56/sentora_php56_upgrade.sh)
 
 ## Getting support
 
